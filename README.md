@@ -2,18 +2,39 @@
 
 # ⚙️ ASMLings
 
-**A lightweight, interactive educational sandbox for Intel 8086 assembly programming.**
+### Learn 8086 Assembly Through Interactive Exercises
 
-[![Crates.io](https://img.shields.io/crates/v/asmlings.svg)](https://crates.io/crates/asmlings)
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+A `rustlings`-inspired learning environment where you write assembly,
+run it instantly, and see if you understand what the CPU does.
+
+[![Crates.io](https://img.shields.io/crates/v/asmlings.svg)](...)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](...)
 
 </div>
 
-![/demo.gif](/demo.gif)
+<div align="center">
+
+<img src="demo.gif" width="500px" style="border-radius: 4px;">
+
+</div>
 
 ASMLings provides a sandboxed feedback loop powered by a Rust-based 16-bit x86 emulator. You just write code, save the file and instantly check the results.
 
 > Inspired by the `rustlings` project
+
+
+## Why ASMLings?
+
+Learning assembly is difficult because the feedback loop is slow:
+
+1. Write assembly
+2. Assemble it
+3. Run it
+4. Debug what happened
+
+ASMLings makes it interactive: `write code → save → instant feedback`
+
+Each exercise teaches one concept through small, testable programs.
 
 
 ## Installation
@@ -106,6 +127,14 @@ To complete an exercise, you must do two things:
 1. **Satisfy the Assertions / Test Cases:** Exercises are verified against dynamic, programmatic test suites with multiple input/setup variations defined under the hood. The CLI will output the results for each assertion in the test cases.
 2. **Remove the Sentinel:** Every file contains an `; I AM NOT DONE` comment. Even if your code compiles and passes all assertions and test cases, Asmlings will not advance to the next exercise until you manually delete this line. This ensures you deliberately complete the exercise and understand the solution.
 
-## Contributing
+## Who is this for?
+ASMLings is for:
 
+- Rust developers wanting to understand what happens below the compiler
+- Students learning computer architecture
+- Programmers curious about assembly
+- Anyone who enjoyed rustlings and wants a low-level challenge
+
+## Contributing
 Contributions are welcome! If you'd like to help build or improve Asmlings, check out our [Contributing Guide](CONTRIBUTING.md) for details on setting up your local development environment and troubleshooting common compilation issues.
+
