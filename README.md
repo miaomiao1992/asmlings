@@ -9,6 +9,8 @@
 
 </div>
 
+![/demo.gif](/demo.gif)
+
 ASMLings provides a sandboxed feedback loop powered by a Rust-based 16-bit x86 emulator. You just write code, save the file and instantly check the results.
 
 > Inspired by the `rustlings` project
