@@ -138,3 +138,13 @@ ASMLings is for:
 ## Contributing
 Contributions are welcome! If you'd like to help build or improve Asmlings, check out our [Contributing Guide](CONTRIBUTING.md) for details on setting up your local development environment and troubleshooting common compilation issues.
 
+## FAQ
+
+**Is ASMLings a replacement for NASM?**\
+No. ASMLings uses NASM internally but focuses on learning through exercises.
+
+**Is this for beginners?**\
+Yes. You only need basic programming knowledge.
+
+**Why 8086?**\
+8086 has a small instruction set and makes CPU fundamentals easier to understand.
